@@ -33,16 +33,6 @@ AgriSure/
 
 Create [backend/database_config.json](/home/gaurav-barwa/Documents/Gaurav/IIITD-4th%20Sem/DBMS%20Project/AgriSure/backend/database_config.json) in this format:
 
-```json
-{
-  "dbname": "AgriSure_DB",
-  "user": "gaurav",
-  "password": "yourpassword",
-  "host": "127.0.0.1",
-  "port": "5432"
-}
-```
-
 Then load the SQL scripts in this order:
 
 1. [CreateTables.sql](/home/gaurav-barwa/Documents/Gaurav/IIITD-4th%20Sem/DBMS%20Project/AgriSure/sql/CreateTables.sql)
@@ -65,19 +55,8 @@ python3 -m venv .venv
 
 ## Running The Project
 
-Start the backend:
-
-```bash
-cd /home/gaurav-barwa/Documents/Gaurav/IIITD-4th\ Sem/DBMS\ Project/AgriSure/backend
-../.venv/bin/uvicorn main:app --host 127.0.0.1 --port 8000
-```
-
-Start the frontend:
-
-```bash
-cd /home/gaurav-barwa/Documents/Gaurav/IIITD-4th\ Sem/DBMS\ Project/AgriSure/frontend
-../.venv/bin/streamlit run app.py
-```
+Start the backend
+Start the frontend
 
 ## Seeded Login Credentials
 
